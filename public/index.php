@@ -27,21 +27,37 @@ if(!in_array($rota, $rotas_permitidas)){
 // preparação da página 
 $script = null;
 switch ($rota) {
-    case '404';
+    case '404':
     $script = '404.php';
     break;
 
-    case 'login';
+    case 'login':
     $script = 'login.php';
     break;
 
-    case 'login_submit';
+    case 'logout':
+    $script = 'logout.php';
+    break;
+
+    case 'login_submit':
     $script = 'login_submit.php';
     break;
 
-    case 'home';
+    case 'home':
     $script = 'home.php';
     break;
+
+    case 'page1':
+        $script = 'page1.php';
+        break;
+
+        case 'page2':
+            $script = 'page2.php';
+            break;
+
+            case 'page3':
+                $script = 'page3.php';
+                break;
 }
 
 //carregamento de scripts permanentes
