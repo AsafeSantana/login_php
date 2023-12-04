@@ -1,7 +1,7 @@
 <nav class="container mt-5 p-4 border rounded-3 shadow-sm bg-light">
 <div class="row align-items-center">
     <col class="col">
-    <h4>Aplicação PHP</h4>
+    <h4>Exercicio PHP</h4>
 </div>
     
 <div class="col text-center">
